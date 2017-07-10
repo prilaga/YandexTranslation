@@ -60,5 +60,9 @@ Example of using:
 ### 4. Get a Translation in the same thread:  
 
      Translation translation = getTranslation(sourceText, sourceLang, destinationLang);
+     
+      if (YandexTranslation.Translation.hasTranslation(translation)){
+          String text = translation.translations.get(0);
+      }
 
                 
