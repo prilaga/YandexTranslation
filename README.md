@@ -1,6 +1,6 @@
-# YandexTranslation
+# Yandex Translation
 
-Simple util which helps to implement Yandex translation serivce with RxJava.
+Simple util which helps to implement Yandex translation service with RxJava.
 
 Example of using:
 
@@ -11,7 +11,7 @@ Example of using:
         String key = "your_key";
         YandexTranslation translation = new YandexTranslation();
 
-### 2. Get a text async:
+### 2. Get a text asynchronously:
 
         translation.setKey(key)
                 .getTextObservable(sourceText, sourceLang, destinationLang)
@@ -34,7 +34,7 @@ Example of using:
                     }
                 });
                 
-### 3. Get a Translation async:
+### 3. Get a Translation object asynchronously:
 
            translation.setKey(key)
                 .getTranslationObservable(sourceText, sourceLang, destinationLang)
