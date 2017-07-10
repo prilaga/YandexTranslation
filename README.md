@@ -2,6 +2,9 @@
 
 Simple util which helps to implement Yandex translation service with RxJava.
 
+### Android Application Development
+http://prilaga.com
+
 Example of using:
 
 ### 1. Setup
