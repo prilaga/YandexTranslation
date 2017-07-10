@@ -6,7 +6,17 @@
 Simple util which helps to implement Yandex translation service with RxJava.
 Example of using:
 
+### 1. Dependencies
+
+Add to build.gradle file:
+
+    dependencies {
+       compile 'io.reactivex:rxjava:1.1.6'
+       compile 'io.reactivex:rxandroid:1.2.1'
+       }
+
 ### 1. Setup
+
         String sourceText = "Годный переводчик";
         String sourceLang = "ru";
         String destinationLang = "en";
