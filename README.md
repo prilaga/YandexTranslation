@@ -1,7 +1,6 @@
 # Yandex Translation
 
-### Android Application Development
-http://prilaga.com
+### Android Application Development http://prilaga.com
 
 
 Simple util which helps to implement Yandex translation service with RxJava.
