@@ -16,8 +16,6 @@ import rx.Subscriber;
 import rx.functions.Func1;
 
 /**
- * http://prilaga.com
- *
  * Created by Oleg Tarashkevich on 10.07.2017.
  */
 public class YandexTranslation {
